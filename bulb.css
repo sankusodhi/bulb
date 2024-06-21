@@ -1,0 +1,42 @@
+
+body {
+     background-image: url('image.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .sanku {
+    text-align: center;
+  }
+  
+  .bulb, .cat {
+    margin: 20px;
+  }
+  
+  .bulb img, .cat img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .switch-board {
+    margin-top: 20px;
+  }
+  
+  .switch-status {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .switch-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
